@@ -1,0 +1,55 @@
+<div class="big-square"></div>
+<div class="middle-square"></div>
+<div class="little-square"></div>
+<div class="line2"></div>
+<div class="line1"></div>
+<style>
+  body {
+    background: #F3AC3C
+  }
+  .little-square {
+    width: 30px;
+    height: 30px;
+    background: #1A4341;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 135;
+    left: 183;
+  }
+  .middle-square {
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 99;
+    left: 150;
+  }
+  .big-square {
+    width: 160px;
+    height: 160px;
+    background: #998235;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 70;
+    left: 119;
+  }
+  .line1 {
+    width: 160px;
+    height: 30px;
+    background: #F3AC3C;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 65;
+    left: 47;
+  }
+  .line2 {
+    width: 30px;
+    height: 160px;
+    background: #F3AC3C;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -20;
+    left: 270;
+  }
+</style>
